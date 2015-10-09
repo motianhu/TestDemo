@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smona.app.demo.gradient.GradientRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/musicbaselayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+</com.smona.app.demo.gradient.GradientRelativeLayout>

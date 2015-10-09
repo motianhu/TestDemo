@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用色值 -->
+    <color name="common_background">#F1F1F1</color><!-- 背景颜色 -->
+    <color name="common_text_normal">#515151</color><!-- 文字颜色 -->
+    <color name="common_transparent">#00000000</color><!-- 透明色 -->
+    <color name="common_white">#ffffff</color><!-- 纯白 -->
+    <color name="common_black">#000000</color><!-- 纯黑 -->
+    <color name="common_blue">#3636FF</color><!-- 蓝色 -->
+    <color name="common_red">#FE3333</color><!-- 红色 -->
+    <color name="common_title_text">#E9F4FC</color><!-- 标题文字颜色 -->
+    <color name="common_title_background">#0F6FD8</color><!-- 标题背景色 -->
+    <color name="common_title_shadow">#03B39F</color><!-- 标题阴影色 -->
+    <color name="common_btn_text_normal">#FFFFFF</color><!-- 文字按钮正常颜色 -->
+    <color name="common_btn_text_pressed">#A1BB61</color><!-- 文字按钮按下颜色 -->
+    <color name="common_gray_transparent">#7F000000</color><!-- 半透明 -->
+    <color name="common_dialog_bg">#29000000</color><!-- 半透明 -->
+     <color name="common_hint">#cecece</color><!-- 输入文字提示颜色 -->
+    
+    <!-- 业务通用颜色 -->
+    <color name="gjfax_yellow">#FFBC1B</color>
+    <color name="gjfax_gray">#8e8e8e</color>
+    <color name="gjfax_blue">#3789DD</color>
+    <color name="gjfax_green">#80C24A</color>
+    <color name="gjfax_red">#FC6060</color>
+    <color name="grey_light">#85898c</color><!-- 淡灰色 -->
+    <color name="green_light">#B3DDFC</color><!-- 淡绿色 -->
+    <color name="toast_bg">#7F000000</color>
+    <color name="gjfax_yellow_pressed">#F6AB00</color>
+    <color name="gjfax_yellow_2">#F6AB00</color>
+    <color name="gjfax_blue_pressed">#0F34E0</color>
+    <color name="gjfax_blue_unsel">#7F3789DD</color>
+    <color name="gjfax_line_gray">#F1F1F1</color>
+    <drawable name="gjfax_send_sms_btn_normal">#3789dd</drawable>
+    <drawable name="gjfax_send_sms_btn_pressed">#2a76c4</drawable>
+    <drawable name="gjfax_send_sms_btn_disable">#9bc4ee</drawable>
+    
+    <color name="main_tabbar_bg">#EEF3F8</color>
+    <color name="main_tabbar_text_uncheck">#8e8e8e</color>
+    <color name="main_tabbar_text_check">#3789DD</color>
+    <color name="btn_title_text_pressed">#9bc4ee</color>
+    <color name="new_msg_tip_bg">#FF0000</color>
+    <color name="recommend_circular_outline">#d3d3d3</color>
+    <color name="recommend_circular_ring">#ffbc1b</color>
+    <color name="recommend_new_user_product_bg">#ECECEC</color>
+    
+    <color name="invest_tab_underline">#3789DD</color>
+    <color name="invest_tab_background">#f2f2f2</color>
+    <color name="invest_tab_text">#A3A3A3</color>
+    <color name="invest_progress_backgroud">#F2F2F2</color>
+    
+    <!-- 我的投资界面 -->
+    <color name="transfer_rule">#5194DF</color>
+    <!-- 我的转让界面 -->
+    <color name="transfering_drop_price">#81C24B</color>
+    <color name="transfer_info_price">#3E7ECE</color>
+    <color name="transfer_down_price">#8AC759</color>
+    <!-- 更多页面 -->
+    <color name="list_pressed_grey">#f3f3f3</color>
+    
+    <!-- 意见反馈 -->
+    <color name="feedback_bg">#f2f7ff</color>
+    <color name="feedback_text">#747474</color>
+    <color name="feedback_text_hint">#CACACA</color><!-- 浅灰色 -->  
+    <color name="feedback_edit_text">#4c4c4c</color><!-- 灰黑色 -->
+    <color name="feedback_btn_pressed">#FF6600</color>
+    <color name="feedback_btn_normal">#f6ab00</color>
+    
+    <!-- 手势密码 -->
+     <color name="gesture_text">#448aca</color><!-- 浅蓝色 -->
+     <color name="gesture_wrong_tip">#fe7900</color><!-- 橙色 -->
+
+     <!-- 活动中心 -->
+     <color name="activity_center_title_bg">#c1c1c1</color><!-- 浅灰色 -->
+      <color name="activity_center_time">#8e8e8e</color><!-- 深灰色 -->
+       <color name="activity_center_detail">#515151</color><!-- 浅灰色 -->
+       
+       <color name="interval_line">#d1d1d1</color>
+       
+</resources>

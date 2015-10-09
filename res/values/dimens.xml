@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="half_2_3">200dp</dimen>
+    <dimen name="half_70">70dp</dimen>
+    <dimen name="half_10">10dp</dimen>
+    
+    
+    <dimen name="custom_container_width">209dp</dimen>
+    <dimen name="custom_container_height">356dp</dimen>
+    <dimen name="custom_item_width">189dp</dimen>
+    <dimen name="custom_item_height">336dp</dimen>
+    
+    
+    <dimen name="covet_flow_w">350dp</dimen>
+    <dimen name="covet_flow_h">300dp</dimen>
+    <dimen name="covet_flow_child_w">150dp</dimen>
+    <dimen name="covet_flow_child_h">150dp</dimen>
+    <dimen name="covet_flow_space">40dp</dimen>
+
+</resources>

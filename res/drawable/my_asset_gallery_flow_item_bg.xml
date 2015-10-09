@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false" >
+
+    <solid android:color="@color/gjfax_blue" />
+
+    <size
+        android:height="@dimen/my_assets_fragment_gallery_flow_w"
+        android:width="@dimen/my_assets_fragment_gallery_flow_w" />
+
+</shape>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/transport_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <com.smona.app.demo.custom.PicturePage
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pagedview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000" >
+        </com.smona.app.demo.custom.PicturePage>
+    </LinearLayout>
+
+</LinearLayout>

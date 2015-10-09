@@ -1,0 +1,7 @@
+<resources>
+
+    <integer name="config_scale_value">100</integer>
+    <integer name="config_alpha_value">80</integer>
+    <integer name="config_alpha_limit_value">80</integer>
+    <integer name="config_scale_limit_value">10</integer>
+</resources>

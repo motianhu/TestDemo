@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    style="@style/home_frame_layout"
+    android:background="#221934"
+    android:orientation="vertical" >
+
+    <com.smona.app.demo.galleryeven.FancyCoverFlow
+        android:id="@+id/home_recommend"
+        android:layout_width="@dimen/covet_flow_w"
+        android:layout_height="@dimen/covet_flow_h"
+        android:layout_centerInParent="true"
+        android:fadingEdge="none"
+        android:spacing="0dp" />
+
+</RelativeLayout>
