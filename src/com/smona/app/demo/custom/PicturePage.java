@@ -1,5 +1,7 @@
 package com.smona.app.demo.custom;
 
+import com.smona.app.demo.R;
+
 import android.animation.TimeInterpolator;
 import android.content.Context;
 import android.graphics.Canvas;
@@ -40,7 +42,8 @@ public class PicturePage extends HorPagedView {
         super(context, attrs, defStyle);
         mOverviewModeShrinkFactor = mConfigScaleValue;
         mContentIsRefreshable = false;
-        this.setPageSpacing(44);
+        int space = context.getResources().getDimensionPixelSize(R.dimen.custom_container_space);
+        this.setPageSpacing(space);
         setDataIsReady();
     }
 

@@ -12,6 +12,7 @@
     <dimen name="custom_container_height">356dp</dimen>
     <dimen name="custom_item_width">189dp</dimen>
     <dimen name="custom_item_height">336dp</dimen>
+    <dimen name="custom_container_space">11dp</dimen>
     
     
     <dimen name="covet_flow_w">350dp</dimen>

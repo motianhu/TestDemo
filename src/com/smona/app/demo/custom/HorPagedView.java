@@ -579,8 +579,9 @@ public abstract class HorPagedView extends ViewGroup implements
                 childHeightMode = MeasureSpec.EXACTLY;
             }
 
-            int childWidth = getContext().getResources().getDimensionPixelSize(R.dimen.custom_container_width);
-            
+            int childWidth = getContext().getResources().getDimensionPixelSize(
+                    R.dimen.custom_container_width);
+
             final int childWidthMeasureSpec = MeasureSpec.makeMeasureSpec(
                     childWidth - horizontalPadding, childWidthMode);
             final int childHeightMeasureSpec = MeasureSpec.makeMeasureSpec(
@@ -943,12 +944,13 @@ public abstract class HorPagedView extends ViewGroup implements
             if (leftScreen != -1 && rightScreen != -1) {
                 final long drawingTime = getDrawingTime();
                 int childCount = getChildCount();
-                int width = getMeasuredWidth();
-                int offset = (childCount - 1) * width
-                        + (int) (width * (1 - 0.1f * childCount));
+                int width = getChildAt(0).getMeasuredWidth();
+                int offset = childCount * (width + mPageSpacing);
+
                 if (DEBUG)
-                    Log.d(TAG, "motianhu leftScreen: " + leftScreen + ", rightScreen: "
-                            + rightScreen + ", scrollX: " + getScrollX());
+                    Log.d(TAG, "motianhu leftScreen: " + leftScreen
+                            + ", rightScreen: " + rightScreen + ", scrollX: "
+                            + getScrollX() + ", offset: " + offset);
                 if (isLoop(childCount)
                         && ((leftScreen == 0) && (rightScreen == 1 || leftScreen == rightScreen))) {
                     // the (childCount - 1) of view
