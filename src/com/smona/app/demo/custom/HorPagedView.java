@@ -470,7 +470,7 @@ public abstract class HorPagedView extends ViewGroup implements
                 if (mNextPage == -1) {
                     mCurrentPage = getChildCount() - 1;
                     scrollTo(mCurrentPage
-                            * getScaledMeasuredWidth(getChildAt(0)),
+                            * (getScaledMeasuredWidth(getChildAt(0)) + mPageSpacing),
                             getScrollY());
                 } else if (mNextPage == getChildCount()) {
                     mCurrentPage = 0;
